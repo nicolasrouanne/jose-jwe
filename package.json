@@ -4,5 +4,8 @@
   "description": "JSON Web Encryption",
   "main": "index.js",
   "author": "Nicolas Rouanne",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "node-jose": "^1.1.1"
+  }
 }
