@@ -6,7 +6,7 @@ keystore.add(keyStr).then(key => {
   console.log(key);
 
   jose.JWE.createEncrypt(key)
-    .update("hello world")
+    .update("My Encrypted message")
     .final()
     .then(enc => {
       console.log(enc);
