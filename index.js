@@ -1,8 +1,8 @@
+const keyStr = require("./keyStr");
 const jose = require("node-jose");
 
 const keystore = jose.JWK.createKeyStore();
-
-keystore.generate("RSA", 2048).then(key => {
+keystore.add(keyStr).then(key => {
   console.log(key);
 
   jose.JWE.createEncrypt(key)
