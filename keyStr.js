@@ -1,8 +1,9 @@
 module.exports = {
-  use: "enc",
-  kid: "rsa-TeUN8ZvhnQN1ei_f1T4ByMLIB0TGX1m3u_LgmU1Y6FQ",
-  n:
-    "5K7B7kxht_tuMDN2qkAdCR0K_NqziX10AiPQydUSjDxtEr1LcnCNzl1FMvmLgYsva8uOs8CmLoeuPpmorZ9FTUiuv1UxBOSyCfDcuVZoykItL-RelzpmBK7W2qZ6WagwGRbRMAmozEeS99QD2OEjGJzEowABWoWNzfETETb465433d72Z0Os9ZMrNOSJPuZFGp_s_Qp0PNS9odWm-KrRbydAKAXfC45YlRiWVVGhNXewiaQURjEDr8eLgoD1Fd3M7GmcC5k_NouH75lesNn2XAV_6VHEd8m5Mzbchr27N78pdfaIOgLBor88LqCaGM4pAsB96Spo4Im3rMt4rVNnww",
+  alg: "RSA-OAEP",
+  e: "AQAB",
+  kid: "rsa-5ofWP09ChW4qop6P43XbF7_F2PnEJ7_hBhXAarwQfnQ",
   kty: "RSA",
-  e: "AQAB"
+  n:
+    "pZsjTGAeeIV4uvHvFj1U3Pry5RF26MdCYGNUVVr5XJLEuWE0wAe7TBzR-QcOpH0fpo1nK6sf3AYWjJVHSEZWX2v_v7MlyPOihcoy95LEOTpILa3arzMRPuxJD9tuF999VZkRtqNjDlEDCO_tKA0WizhxXtwx7SmuooU93M5JSkw5R-1GslF76J_Lx-bXc6u7zk77ImtLipS6NghRjMYOgsQwZ0mCNWSjq-IdsnGNyYuWrH9IBXXy3cZ8B8bnwQ1LzTepBq2Ai5lkotUuRIkY2Jj0CDkGEDTKjh5rfuprYT0luRy7E15l3UGLUpQ5L4t90vjpMd9JO2sF657H-QleNQ",
+  use: "enc"
 };
