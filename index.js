@@ -15,7 +15,7 @@ const encryptHashValues = hash => {
 };
 
 const encrypt = input =>
-  keystore.add(keyStr).then(key =>
+  jose.JWK.asKey(keyStr).then(key =>
     jose.JWE.createEncrypt({ format: "compact" }, key)
       .update(input)
       .final()
